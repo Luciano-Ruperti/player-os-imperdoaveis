@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Os Imperdoáveis</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Os Imperdoáveis</h1>
+      <img
+        class="img-container"
+        src="img/os_imperdoaveis.jpg"
+        alt="foto da capa"
+      />
+      <div class="track-info">
+        <p class="tracks">Faixa 1: Sunga Preta</p>
+        <p class="tracks">Faixa 2: Renatinha</p>
+        <p class="tracks">Faixa 3: Domingo Feliz</p>
+        <p class="tracks">Faixa 4: Freak Le Boom</p>
+        <p id="track">Faixa 1</p>
+      </div>
+      <audio id="audio-track" src="tracks/track1.mp3"></audio>
+      <div class="btn-container">
+        <button id="backward" class="bi bi-skip-backward-fill"></button>
+        <button id="play-pause" class="bi bi-play-circle-fill"></button>
+        <button id="forward" class="bi bi-skip-forward-fill"></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
