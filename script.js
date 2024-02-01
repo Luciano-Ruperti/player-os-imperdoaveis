@@ -4,7 +4,7 @@ const forwardBtn = document.getElementById("forward");
 const backwardBtn = document.getElementById("backward");
 const trackName = document.getElementById("track");
 
-const totalTracks = 4;
+const totalTracks = 5;
 let isPlaying = 0;
 let actualTrack = 1;
 
