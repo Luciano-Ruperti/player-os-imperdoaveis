@@ -63,3 +63,4 @@ function backTrack() {
 playPauseBtn.addEventListener("click", playOrPause);
 forwardBtn.addEventListener("click", nextTrack);
 backwardBtn.addEventListener("click", backTrack);
+audioTrack.addEventListener("ended", nextTrack);
